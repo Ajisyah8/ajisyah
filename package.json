@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Ajisyah8.github.io/ajisyah",
-  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

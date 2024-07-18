@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-@import url('../../../assets/css/main.css');
+@import url('../../../../assets/css/main.css');
 
 #page-loader {
   position: fixed;

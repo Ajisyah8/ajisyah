@@ -4,12 +4,12 @@ import { useInView } from 'react-intersection-observer';
 import './Achievement.css';
 
 const achievements = [
-  { word: 'Certification in Front-end Developer', value: 1, unit: '', certificate: './src/assets/images/developer.png' },
-  { word: 'Certification in Red Hat Administrator', value: 2, unit: '', certificate: './src/assets/images/mycertife.png' },
-  { word: 'Certification in IBM Artificial Intelligence', value: 3, unit: '', certificate: './src/assets/images/IBMAI.png' },
-  { word: 'Certification in Python for Data Science', value: 4, unit: '', certificate: './src/assets/images/python.png' },
-  { word: 'Certification in React Problem Solving', value: 5, unit: '', certificate: './src/assets/images/reactsertifikat.png' },
-  { word: 'Certification in Enterprise Design', value: 6, unit: '', certificate: './src/assets/images/enterprise.png' }
+  { word: 'Certification in Front-end Developer', value: 1, unit: '', certificate: './assets/images/developer.png' },
+  { word: 'Certification in Red Hat Administrator', value: 2, unit: '', certificate: './assets/images/mycertife.png' },
+  { word: 'Certification in IBM Artificial Intelligence', value: 3, unit: '', certificate: './assets/images/IBMAI.png' },
+  { word: 'Certification in Python for Data Science', value: 4, unit: '', certificate: './assets/images/python.png' },
+  { word: 'Certification in React Problem Solving', value: 5, unit: '', certificate: './assets/images/reactsertifikat.png' },
+  { word: 'Certification in Enterprise Design', value: 6, unit: '', certificate: './assets/images/enterprise.png' }
 ];
 
 const Achievement = () => {
