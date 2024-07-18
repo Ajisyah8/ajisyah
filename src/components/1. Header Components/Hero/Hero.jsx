@@ -1,23 +1,18 @@
 import React from 'react';
-import { name, socialProfiles, backgroundImageURL } from '../../../your_info'; // Importing name and socialProfiles from your_info
+import { name, socialProfiles} from '../../../your_info'; // Importing name, socialProfiles, and backgroundImageURL from your_info
 import Navbar from '../Navbar/Navbar';
 import Typewriter from '../Typewriter/Typewriter';
 import './Hero.css'; // Importing CSS styles for Hero component
-
-// Define the background image URL directly in the component
-// const backgroundImageURL = './src/assets/images/me.jpg'; // Adjust the path based on your project structure
+import { backgroundImageURL } from '../../../your_info';
 
 const Hero = () => {
-  const { firstname, lastname } = name; // Destructure 'name' object to get firstname and lastname
-
-  const heroStyle = {
-    backgroundImage: `url(${backgroundImageURL})`, // Use backgroundImageURL for setting background image
-  };
+  const { firstname, lastname } = name; // Destructuring 'name' object to get firstname and lastname
 
   return (
-    <section id='Home' className='hero-area' style={heroStyle}>
+    <section id='Home' className='hero-area' style={{ backgroundImage: `url(${backgroundImageURL})` }}>
+      {/* Navbar component */}
       <Navbar />
-      <img src="{backgroundImageURL}" alt="" style={heroStyle}/>
+
       <div className='container'>
         <div className='row align-items-center'>
           <div className='hero-content'>
@@ -28,18 +23,20 @@ const Hero = () => {
               </div>
             </div>
             <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
+              {/* Typewriter component */}
               <Typewriter />
             </div>
             <div className='btn-pos'>
+              {/* Mapping through socialProfiles to render social profile buttons */}
               {socialProfiles.map((profile, index) => (
                 <a
                   href={profile.url}
-                  id={`button-${index}`} // Assign a unique ID based on index or profile.id
+                  id={`button-${index}`} // Assigning a unique ID based on index or profile.id
                   className='btn wow fadeInLeft'
                   target='_blank'
                   rel='noopener noreferrer'
                   data-wow-delay={`${index * 0.2 + 0.8}s`}
-                  key={index} // Use index as key, ensure each item has a unique key
+                  key={index} // Using index as key to ensure each item has a unique key
                 >
                   <i className={`icon ${profile.icon}`}></i>
                 </a>
