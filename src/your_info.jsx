@@ -2,7 +2,7 @@
 
 // your_info.jsx
 
-const backgroundImageURL = './src/assets/images/me.jpg';
+const backgroundImage = './src/assets/images/me.jpg';
 
 
 // Enter here your first and last name
@@ -130,21 +130,21 @@ const projectData = [
   {
     title: 'WorkMatch',
     description: 'WorkMatch for People to Work',
-    demoUrl: './src/assets/images/atas.png',
+    demo: './src/assets/images/atas.png',
     githubUrl: 'https://github.com/Ajisyah8/Workmatch',
     gitUrl: 'https://workmatch-ten.vercel.app/' 
   },
   {
     title: 'KickGenius',
     description: 'KickGenius is here',
-    demoUrl: './src/assets/images/kickgenius.png',
+    demo: './src/assets/images/kickgenius.png',
     githubUrl: 'https://github.com/Ajisyah8/KickGenius',
     gitUrl: 'https://kick-genius.vercel.app/'
   },
   {
     title: 'Vehichle Detector',
     description: 'Just Vehichle Detector',
-    demoUrl: './src/assets/images/VehichleDetector.png',
+    demo: './src/assets/images/VehichleDetector.png',
     githubUrl: 'https://github.com/Ajisyah8/Vehichle-Detector',
     gitUrl: 'https://github.com/Ajisyah8/Vehichle-Detector' 
   },
@@ -170,7 +170,7 @@ const emailConfig = {
 };
 
 export {
-  backgroundImageURL,
+  backgroundImage,
   name,
   typeWriterText,
   socialProfiles,

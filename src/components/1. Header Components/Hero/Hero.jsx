@@ -3,13 +3,13 @@ import { name, socialProfiles} from '../../../your_info'; // Importing name, soc
 import Navbar from '../Navbar/Navbar';
 import Typewriter from '../Typewriter/Typewriter';
 import './Hero.css'; // Importing CSS styles for Hero component
-import { backgroundImageURL } from '../../../your_info';
+import { backgroundImage } from '../../../your_info';
 
 const Hero = () => {
   const { firstname, lastname } = name; // Destructuring 'name' object to get firstname and lastname
 
   return (
-    <section id='Home' className='hero-area' style={{ backgroundImage: `url(${backgroundImageURL})` }}>
+    <section id='Home' className='hero-area' style={{ backgroundImage: `url(${backgroundImage})` }}>
       {/* Navbar component */}
       <Navbar />
 

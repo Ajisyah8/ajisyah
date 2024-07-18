@@ -29,10 +29,10 @@ const Projects = () => {
   };
 
   const renderDemoContent = (project) => {
-    if (isImageURL(project.demoUrl)) {
-      return <img src={project.demoUrl} alt="Project Thumbnail" />;
+    if (isImageURL(project.demo)) {
+      return <img src={project.demo} alt="Project Thumbnail" />;
     } else {
-      return <iframe src={project.demoUrl} title="Project Demo" allowFullScreen />;
+      return <iframe src={project.demo} title="Project Demo" allowFullScreen />;
     }
   };
 

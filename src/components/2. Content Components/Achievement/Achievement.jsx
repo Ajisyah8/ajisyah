@@ -4,12 +4,12 @@ import { useInView } from 'react-intersection-observer';
 import './Achievement.css';
 
 const achievements = [
-  { word: 'Certification in Front-end Developer', value: 1, unit: '', certificateUrl: './src/assets/images/developer.png' },
-  { word: 'Certification in Red Hat Administrator', value: 2, unit: '', certificateUrl: './src/assets/images/mycertife.png' },
-  { word: 'Certification in IBM Artificial Intelligence', value: 3, unit: '', certificateUrl: './src/assets/images/IBMAI.png' },
-  { word: 'Certification in Python for Data Science', value: 4, unit: '', certificateUrl: './src/assets/images/python.png' },
-  { word: 'Certification in React Problem Solving', value: 5, unit: '', certificateUrl: './src/assets/images/reactsertifikat.png' },
-  { word: 'Certification in Enterprise Design', value: 6, unit: '', certificateUrl: './src/assets/images/enterprise.png' }
+  { word: 'Certification in Front-end Developer', value: 1, unit: '', certificate: './src/assets/images/developer.png' },
+  { word: 'Certification in Red Hat Administrator', value: 2, unit: '', certificate: './src/assets/images/mycertife.png' },
+  { word: 'Certification in IBM Artificial Intelligence', value: 3, unit: '', certificate: './src/assets/images/IBMAI.png' },
+  { word: 'Certification in Python for Data Science', value: 4, unit: '', certificate: './src/assets/images/python.png' },
+  { word: 'Certification in React Problem Solving', value: 5, unit: '', certificate: './src/assets/images/reactsertifikat.png' },
+  { word: 'Certification in Enterprise Design', value: 6, unit: '', certificate: './src/assets/images/enterprise.png' }
 ];
 
 const Achievement = () => {
@@ -49,8 +49,8 @@ const Achievement = () => {
                       </h3>
                     )}
                     <p>{info.word}</p>
-                    {info.certificateUrl && (
-                      <img src={info.certificateUrl} alt={`Certificate ${index}`} className="certificate-image" />
+                    {info.certificate && (
+                      <img src={info.certificate} alt={`Certificate ${index}`} className="certificate-image" />
                     )}
                   </div>
                 </div>
