@@ -1,9 +1,9 @@
-//////////////////////////////////////// ** HEADER / HERO SECTION **///////////////////////////////////////////
+import meImage from '../assets/images/me.jpg';
+import atasImage from '../assets/images/atas.png';
+import kickgeniusImage from '../assets/images/kickgenius.png';
+import VehicleDetectorImage from '../assets/images/VehichleDetector.png';
 
-// your_info.jsx
-
-const backgroundImage = './assets/images/me.jpg';
-
+const backgroundImage = meImage;
 
 // Enter here your first and last name
 const name = {
@@ -36,17 +36,15 @@ const socialProfiles = [
     icon: 'lni lni-instagram',
     url: 'https://www.instagram.com/_ajisyah?igsh=NWVmenVhOTV4YXkw&utm_source=qr',
   }
-
 ];
 
 //////////////////////////////////////// ** CONTENT SECTION **//////////////////////////////////////////////////
-
 
 const categories = [
   {
     name: 'Front-end',
     icon: 'lni lni-code',
-    title: 'Frot-end',
+    title: 'Front-end',
     description:
       "Pengalaman saya di frontend meliputi desain UI/UX, pengkodean HTML, CSS, dan JavaScript, serta menggunakan React dengan Vite dan PHP",
     skills: [
@@ -64,7 +62,7 @@ const categories = [
       },
       {
         icon: 'lni lni-css3',
-        title: 'CSS3 and TailwidCSS',
+        title: 'CSS3 and TailwindCSS',
       }
     ],
   },
@@ -73,7 +71,7 @@ const categories = [
     icon: 'lni lni-code',
     title: 'Back-end',
     description:
-    "Pengalaman saya di backend mencakup Node.js dan Express.js untuk API RESTful, fokus pada MySQL, keamanan, dan performa pada website.",
+      "Pengalaman saya di backend mencakup Node.js dan Express.js untuk API RESTful, fokus pada MySQL, keamanan, dan performa pada website.",
     skills: [
       {
         icon: 'lni lni-database',
@@ -91,8 +89,6 @@ const categories = [
         icon: 'lni lni-javascript',
         title: 'Javascript',
       }
-     
-      
     ],
   },
   {
@@ -100,7 +96,7 @@ const categories = [
     icon: 'lni lni-code',
     title: 'Software',
     description:
-    "Saya menggunakan Visual Studio Code untuk kode, Figma untuk desain UI/UX, GitHub untuk kode sumber, dan MySQL Workbench untuk basis data MySQL.",
+      "Saya menggunakan Visual Studio Code untuk kode, Figma untuk desain UI/UX, GitHub untuk kode sumber, dan MySQL Workbench untuk basis data MySQL.",
     skills: [
       {
         icon: 'lni lni-code-alt',
@@ -118,50 +114,43 @@ const categories = [
         icon: 'lni lni-github',
         title: 'Github',
       }
-      
     ],
   },
-  
 ];
-
 
 // If you already have some projects, fill the url 
 const projectData = [
   {
     title: 'WorkMatch',
     description: 'WorkMatch for People to Work',
-    demo: './assets/images/atas.png',
+    demo: atasImage, // Menggunakan impor gambar yang benar
     githubUrl: 'https://github.com/Ajisyah8/Workmatch',
     gitUrl: 'https://workmatch-ten.vercel.app/' 
   },
   {
     title: 'KickGenius',
     description: 'KickGenius is here',
-    demo: './assets/images/kickgenius.png',
+    demo: kickgeniusImage, // Menggunakan impor gambar yang benar
     githubUrl: 'https://github.com/Ajisyah8/KickGenius',
     gitUrl: 'https://kick-genius.vercel.app/'
   },
   {
     title: 'Vehichle Detector',
     description: 'Just Vehichle Detector',
-    demo: './assets/images/VehichleDetector.png',
+    demo: VehicleDetectorImage, // Menggunakan impor gambar yang benar
     githubUrl: 'https://github.com/Ajisyah8/Vehichle-Detector',
     gitUrl: 'https://github.com/Ajisyah8/Vehichle-Detector' 
   },
 ];
 
-
 //////////////////////////////////////// ** FOOTER SECTION **//////////////////////////////////////////////////
-
-
 
 // You can tell something about yourself in the infotext.
 const aboutMeText = {
   infotext: `I am majoring in Informatics Engineering at the Faculty of Engineering, specializing in Web Development. I have strong experience in communication and teamwork. In terms of development, I am highly skilled in using React JS and have a basic understanding of using TailwindCSS. Additionally, I also have expertise in backend development using Node.js and Express.js.
-    `,
+  `,
   power_slogan: `Air bersih tanda sehat`,
 };
-
 
 const emailConfig = {
   serviceID: 'service_XXXXXXX',
