@@ -9,7 +9,7 @@ import mycertifeImage from '../../../../assets/images/mycertife.png';
 import ibmAIImage from '../../../../assets/images/IBMAI.png';
 import pythonImage from '../../../../assets/images/python.png';
 import reactSertifikatImage from '../../../../assets/images/reactsertifikat.png';
-import enterpriseImage from '../../../../assets/images/enterprise.png';
+import enterpriseImage from '../../../../assets/images/Enterprise.png';
 
 const achievements = [
   { word: 'Certification in Front-end Developer', value: 1, unit: '', certificate: developerImage },
