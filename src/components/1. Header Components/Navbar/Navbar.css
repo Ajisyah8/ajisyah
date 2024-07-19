@@ -79,7 +79,7 @@
 
 .navbar-nav li {
   padding-left: 35px;
-  margin-top: -15px;
+  margin-top: -30px;
 }
 
 .icon {
@@ -143,13 +143,13 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    right: -100%;
-    width: 70%;
-    max-width: 300px;
+    right: -100%; /* Atur navbar di luar layar */
+    width: 70%; /* Lebar navbar saat muncul */
+    max-width: 300px; /* Batas lebar maksimum navbar */
     background-color: var(--medium-color);
-    transition: right 0.3s;
-    z-index: 999;
-    box-shadow: var(--dark-color) 5px;
+    transition: right 0.3s; /* Animasi saat navbar muncul */
+    z-index: 999; /* Pastikan navbar tetap di atas elemen lain */
+    box-shadow: var(--dark-color) 5px; /* Bayangan untuk efek visual */
   }
 
   .navbar-open .navbar-collapse {
@@ -160,7 +160,7 @@
     position: fixed;
     top: 15px;
     right: 15px;
-    z-index: 1000;
+    z-index: 1000; /* Tombol toggle harus di atas navbar */
     background-color: transparent;
     border: none;
     outline: none;
