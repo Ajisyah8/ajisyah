@@ -3,9 +3,9 @@
 .hero-area {
   position: relative;
   padding: 30px 0 100px 0;
-  background-size: 150% auto;
+  background-size: 160% auto;
   filter: brightness(0.8) contrast(1.2);
-  background-position: calc(10% - 4%);
+  background-position: calc(4% - 4%);
   background-repeat: no-repeat;
   
 }
@@ -78,14 +78,16 @@ h1.first-name {
   margin-top: 0.8em;
   margin-bottom: 0.4em;
   padding-bottom: 1em;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.2em;
   text-align: center;
   color: var(--highlight-color);
+  
 }
 
 h1.last-name {
   text-align: center;
   padding-bottom: 2.4em;
+  letter-spacing: 0.2;
   margin-bottom: 2em;
 }
 

@@ -39,7 +39,7 @@ const Achievement = () => {
         <div className="row">
           <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
             <div className="title">
-              <h2>"Showcase Your Achievements"</h2>
+              <h2>"Showcase My Achievements"</h2>
               <p>Explore our diverse certifications that demonstrate expertise in various domains.</p>
             </div>
           </div>

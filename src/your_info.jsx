@@ -149,7 +149,7 @@ const projectData = [
 const aboutMeText = {
   infotext: `I am majoring in Informatics Engineering at the Faculty of Engineering, specializing in Web Development. I have strong experience in communication and teamwork. In terms of development, I am highly skilled in using React JS and have a basic understanding of using TailwindCSS. Additionally, I also have expertise in backend development using Node.js and Express.js.
   `,
-  power_slogan: `Air bersih tanda sehat`,
+  power_slogan: `Be Humble...`,
 };
 
 const emailConfig = {
