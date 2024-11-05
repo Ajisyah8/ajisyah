@@ -5,21 +5,21 @@ import VehicleDetectorImage from '../assets/images/VehichleDetector.png';
 
 const backgroundImage = meImage;
 
-// Enter here your first and last name
+
 const name = {
   firstname: 'Permana Aji',
   lastname: 'Syahputra',
   url: 'https://drive.google.com/file/d/1t_od6Im4wigF7k0y00hQsGD26s2faR94/view?usp=sharing',
 };
 
-// Display your job title or skills or whatever you want in the typewriter
+
 const typeWriterText = [
   'FullStack Developer...',
   'Front-end & Backend...',
   'Humble Person...'  
 ];
 
-// Social media profiles buttons
+
 const socialProfiles = [
   {
     name: 'LinkedIn',
@@ -118,26 +118,26 @@ const categories = [
   },
 ];
 
-// If you already have some projects, fill the url 
+
 const projectData = [
   {
     title: 'WorkMatch',
     description: 'WorkMatch for People to Work',
-    demo: atasImage, // Menggunakan impor gambar yang benar
+    demo: atasImage, 
     githubUrl: 'https://github.com/Ajisyah8/Workmatch',
     gitUrl: 'https://workmatch-ten.vercel.app/' 
   },
   {
     title: 'KickGenius',
     description: 'KickGenius is here',
-    demo: kickgeniusImage, // Menggunakan impor gambar yang benar
+    demo: kickgeniusImage, 
     githubUrl: 'https://github.com/Ajisyah8/KickGenius',
     gitUrl: 'https://kick-genius.vercel.app/'
   },
   {
     title: 'Vehichle Detector',
     description: 'Just Vehichle Detector',
-    demo: VehicleDetectorImage, // Menggunakan impor gambar yang benar
+    demo: VehicleDetectorImage, 
     githubUrl: 'https://github.com/Ajisyah8/Vehichle-Detector',
     gitUrl: 'https://github.com/Ajisyah8/Vehichle-Detector' 
   },
@@ -145,7 +145,7 @@ const projectData = [
 
 //////////////////////////////////////// ** FOOTER SECTION **//////////////////////////////////////////////////
 
-// You can tell something about yourself in the infotext.
+
 const aboutMeText = {
   infotext: `I am majoring in Informatics Engineering at the Faculty of Engineering, specializing in Web Development. I have strong experience in communication and teamwork. In terms of development, I am highly skilled in using React JS and have a basic understanding of using TailwindCSS. Additionally, I also have expertise in backend development using Node.js and Express.js.
   `,

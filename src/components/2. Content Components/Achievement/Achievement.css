@@ -31,73 +31,73 @@
   color: var(--light-color);
 }
 
-/* Single achievement styling */
+
 .our-achievement .single-achievement {
-  margin-top: 30px; /* Adjusted top margin */
-  margin-bottom: 30px; /* Adjusted bottom margin */
+  margin-top: 30px; 
+  margin-bottom: 30px; 
   text-align: center;
-  padding: 20px 10px; /* Adjusted padding for better spacing */
-  border: 2px solid transparent; /* Transparent border initially */
-  border-radius: 8px; /* Added border radius for rounded corners */
-  position: relative; /* Ensure relative positioning for absolute positioning of image */
-  overflow: hidden; /* Hide overflow for better border effect */
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
-  background-color: var(--dark-color); /* Dark background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+  padding: 20px 10px; 
+  border: 2px solid transparent; 
+  border-radius: 8px; 
+  position: relative; 
+  overflow: hidden; 
+  transition: transform 0.3s ease; 
+  background-color: var(--dark-color); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   
 }
 
 .our-achievement .single-achievement:before {
-  content: ''; /* Create pseudo-element for overlay effect */
+  content: ''; 
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--highlight-color); /* Overlay color */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
-  border-radius: 8px; /* Match border radius */
-  z-index: -1; /* Send behind the content */
+  background: var(--highlight-color); 
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+  border-radius: 8px; 
+  z-index: -1; 
 }
 
 .our-achievement .single-achievement:hover {
-  transform: translateY(-5px); /* Lift card on hover for 3D effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .our-achievement .single-achievement:hover:before {
-  opacity: 0.2; /* Show overlay on hover */
+  opacity: 0.2; 
 }
 
 .our-achievement .single-achievement .certificate-image {
   width: 100%;
-  max-width: 200px; /* Increased max-width for larger image */
-  margin: 20px 0; /* Adjusted margin for better spacing */
-  border-radius: 8px; /* Added border radius for rounded corners on image */
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  max-width: 200px; 
+  margin: 20px 0; 
+  border-radius: 8px; 
+  transition: transform 0.3s ease; 
 }
 
 .our-achievement .single-achievement:hover .certificate-image {
-  transform: scale(1.1); /* Scale image on hover for visual effect */
+  transform: scale(1.1); 
 }
 
 .our-achievement .single-achievement h3,
 .our-achievement .single-achievement p {
   position: relative;
-  z-index: 2; /* Ensure text is above overlay */
-  color: var(--light-color); /* Set text color */
+  z-index: 2; 
+  color: var(--light-color); 
 }
 
 .our-achievement .single-achievement h3 {
-  font-size: 24px; /* Decreased font size for better proportion */
+  font-size: 24px; 
   font-weight: 700;
-  margin-bottom: 5px; /* Adjusted margin for better spacing */
+  margin-bottom: 5px; 
 }
 
 .our-achievement .single-achievement p {
-  font-size: 14px; /* Decreased font size for better proportion */
+  font-size: 14px; 
   font-weight: 500;
   text-transform: capitalize;
-  margin-bottom: 0; /* Removed default margin bottom */
+  margin-bottom: 0;
 }

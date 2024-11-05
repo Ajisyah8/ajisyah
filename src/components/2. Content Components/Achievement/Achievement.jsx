@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import './Achievement.css';
 
-// Import gambar dengan benar
+
 import developerImage from '../../../../assets/images/developer.png';
 import mycertifeImage from '../../../../assets/images/mycertife.png';
 import ibmAIImage from '../../../../assets/images/IBMAI.png';
