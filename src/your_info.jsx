@@ -9,14 +9,14 @@ const backgroundImage = meImage;
 const name = {
   firstname: 'Permana Aji',
   lastname: 'Syahputra',
-  url: 'https://drive.google.com/file/d/1t_od6Im4wigF7k0y00hQsGD26s2faR94/view?usp=sharing',
+  url: 'https://drive.google.com/file/d/1JtSXHczRzrtgcBtKCOt_8o6uOs24vLgE/view?usp=sharing',
 };
 
 
 const typeWriterText = [
-  'FullStack Developer...',
-  'Front-end & Backend...',
-  'Humble Person...'  
+  'Web Development...',
+  'Frontend Developer...',
+  'Hello Everyone...'  
 ];
 
 
